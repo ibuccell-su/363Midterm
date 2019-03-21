@@ -33,9 +33,13 @@ ul {
     
 }
 
+footer{ 
+    background-color: #0F383D;
+}
 
 li{
-    margin-top:10px;
+    margin-top:20px;
+    
 }
 
 a{
@@ -85,9 +89,115 @@ ul{
     transform: translate(-5%, 600%);
   }
   
-.button:hover{
-    background-color: rgb(131, 182, 197);
-}
-  .button5 {border-radius: 30%; height: 30px; vertical-align: center;
+
+
+.btn-sample { 
+    color: #0F383D; 
+    background-color: #FFFFFF; 
+    border-color: #0F383D; 
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 30px;
+    padding:0.6em 2em
+  } 
+   
+  .btn-sample:hover, 
+  .btn-sample:focus, 
+  .btn-sample:active, 
+  .btn-sample.active, 
+  .open .dropdown-toggle.btn-sample { 
+    color: #0F383D; 
+    background-color: #97BFDE; 
+    border-color: #0F383D; 
+  } 
+   
+  .btn-sample:active, 
+  .btn-sample.active, 
+  .open .dropdown-toggle.btn-sample { 
+    background-image: none; 
+  } 
+   
+
+   
+  .btn-sample .badge { 
+    color: #FFFFFF; 
+    background-color: #0F383D; 
+  }
+
+
+
+.btn-sample { 
+    color: #0F383D; 
+    background-color: #FFFFFF; 
+    border-color: #0F383D; 
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 30px;
+    padding:0.6em 2em;
+  } 
+   
+  .btn-sample:hover, 
+  .btn-sample:focus, 
+  .btn-sample:active, 
+  .btn-sample.active, 
+  .open .dropdown-toggle.btn-sample { 
+    color: #0F383D; 
+    background-color: #97BFDE; 
+    border-color: #0F383D; 
+  } 
+   
+  .btn-sample:active, 
+  .btn-sample.active, 
+  .open .dropdown-toggle.btn-sample { 
+    background-image: none; 
+  } 
+   
+
+   
+  .btn-sample .badge { 
+    color: #FFFFFF; 
+    background-color: #0F383D; 
+  }
+
+label{ 
+    color: #0F383D; 
+    font-weight: bolder;
+    font-size: 18px;
 }
 
+
+
+.btn-sample1 { 
+    color: white; 
+    background-color:  #0F383D; 
+    border-color: #0F383D; 
+    font-weight: bolder;
+    font-size: 36px;
+    border-radius: 30px;
+    padding:0em 1em;
+ 
+    
+  } 
+   
+  .btn-sample1:hover, 
+  .btn-sample1:focus, 
+  .btn-sample1:active, 
+  .btn-sample1.active, 
+  .open .dropdown-toggle.btn-sample1 { 
+    color: #0F383D; 
+    background-color: #97BFDE; 
+    border-color: #0F383D; 
+  } 
+   
+  .btn-sample1:active, 
+  .btn-sample1.active, 
+  .open .dropdown-toggle.btn-sample1 { 
+    background-image: none; 
+  } 
+   
+
+   
+  .btn-sample1 .badge { 
+    color: #FFFFFF; 
+    background-color: #0F383D; 
+  }
