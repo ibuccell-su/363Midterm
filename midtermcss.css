@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+    font-family: 'Thasadith', sans-serif;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("mainpic.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -170%);
+  color: white;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+
+li{
+    margin-top:10px;
+}
+
+a{
+    font-size: 200%;
+}
+.footerlink{
+    color: white;
+    font-size:15px;
+
+}
+.footerlink:hover{
+    color: white;
+    font-size:15px;
+
+}
+
+.bluebox{
+    background-color: #E0ECED;
+    color: #0F383D;
+    text-align: center;
+    border: 2px solid #0F383D;;
+
+}
+
+
+h1{
+    font-weight: bold;
+   
+}
+
+ul{
+    color: #0F383D;
+    font-size: 25px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    color: #0F383D;
+    vertical-align: 0%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+
+    transform: translate(-5%, 600%);
+  }
+  
+.button:hover{
+    background-color: rgb(131, 182, 197);
+}
+  .button5 {border-radius: 30%; height: 30px; vertical-align: center;
+}
+
