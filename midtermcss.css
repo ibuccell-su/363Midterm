@@ -21,15 +21,22 @@ body, html {
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
-  position: relative;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
   color: white;
+  vertical-align: center;
+
 }
 
 .nav-link{
    
     font-size: 18px;
     vertical-align: center;
+    color:#0F383D;
 
 }
 .nav-item a {
@@ -245,5 +252,19 @@ label{
   .galleryimg img{
     height:400px;
     width:100%;
-
+    object-fit: cover;
   }
+
+  .fun img{
+    height:200px;
+    width:100%;
+    object-fit: cover;
+  }
+
+
+
+
+.padding-r{
+    padding-right:0;
+}
+
