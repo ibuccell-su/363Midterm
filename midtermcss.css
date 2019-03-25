@@ -90,22 +90,14 @@ li{
 a{
     font-size: 200%;
 }
-.footerlink{
-    color: white;
-    font-size:15px;
 
-}
-.footerlink:hover{
-    color: white;
-    font-size:15px;
-
-}
 
 .bluebox{
     background-color: #E0ECED;
     color: #0F383D;
     text-align: center;
-    border: 2px solid #0F383D;;
+    border: 2px solid #0F383D;
+    box-shadow: 0px 0px 4px rgb(37, 37, 37);
 
 }
 
@@ -114,7 +106,10 @@ h1{
     font-weight: bold;
    font-size: 48px;
 }
-
+h2{
+    font-weight: bold;
+   font-size: 48px;
+}
 ul{
     color: #0F383D;
     font-size: 25px;
@@ -167,7 +162,10 @@ ul{
     font-size: 18px;
     border-radius: 30px;
     padding:0.6em 2em;
+
   } 
+
+
    
   .btn-sample:hover, 
   .btn-sample:focus, 
@@ -175,8 +173,8 @@ ul{
   .btn-sample.active, 
   .open .dropdown-toggle.btn-sample { 
     color: #0F383D; 
-    background-color: #97BFDE; 
-    border-color: #0F383D; 
+    background-color: rgb(195, 234, 238); 
+    border-color: #0F383D;  
   } 
    
   .btn-sample:active, 
@@ -192,8 +190,29 @@ ul{
     background-color: #0F383D; 
   }
 
+  .hello {
+    transition: transform 1s;
+  }
+  
+  .hello:hover {
+    transform: translate(50px, 0px);
+  }
 
+    .grow{
+        transition: all .3s linear 0s ;
+    }
+  .grow:hover
+  {
+          -webkit-transform: scale(1.3);
+          -ms-transform: scale(1.3);
+          transform: scale(1.3);
+          transition: all .3s linear 0s ;
+  }
 
+  .borderr:hover
+{
+        box-shadow: inset 0 0 0 300px #ffffff;
+}
 
 label{ 
     color: #0F383D; 
@@ -266,5 +285,24 @@ label{
 
 .padding-r{
     padding-right:0;
+}
+
+
+.footerlink{
+    color: white;
+    font-size:15px;
+
+}
+.footerlink:hover{
+    color: white;
+    font-size:15px;
+
+}
+
+
+
+.circle:hover
+{
+        border-radius:50%;
 }
 
